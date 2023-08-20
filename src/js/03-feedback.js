@@ -20,5 +20,6 @@ function handlerBtn(evt) {
   evt.preventDefault();
   console.log(inform);
   form.reset();
-  localStorage.removeItem(inform);
+  localStorage.removeItem(FORM_LS);
+  inform = {};
 }
